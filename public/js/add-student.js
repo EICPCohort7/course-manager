@@ -23,7 +23,7 @@ form.addEventListener('submit', (event) => {
   }
   */
 
-  // Use destructuring to give the variables clearer names
+  // Use de wstructuring to give the variables clearer names
   for (let [field, value] of data) {
     console.log(`Field: ${field} | Value: ${value}`);
   }
